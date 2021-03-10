@@ -1,17 +1,17 @@
-# Fruit-UIkit
+# GPYX-UIkit
 
 
-FruitSwap UIkit is a set of React components and hooks used to build pages on FruitSwap's apps. It also contains a theme file for dark and light mode.
+GPYXSwap UIkit is a set of React components and hooks used to build pages on GPYXSwap's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add fruit-uikit`
+`yarn add gpyx-uikit`
 
 ## Setup
 
 ### Theme
 
-Before using FruitSwap UIkit, you need to provide the theme file to styled-component.
+Before using GPYXSwap UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
