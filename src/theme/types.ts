@@ -32,6 +32,7 @@ export type Gradients = {
 };
 
 export type Colors = {
+  white: string;
   primary: string;
   primaryBright: string;
   primaryDark: string;
@@ -47,6 +48,7 @@ export type Colors = {
   background: string;
   backgroundDisabled: string;
   text: string;
+  doptext: string;
   textDisabled: string;
   textSubtle: string;
   borderColor: string;

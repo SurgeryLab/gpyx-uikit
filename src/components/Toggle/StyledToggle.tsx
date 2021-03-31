@@ -9,7 +9,7 @@ const scaleKeyValues = {
     handleLeft: "2px",
     handleTop: "2px",
     checkedLeft: "calc(100% - 18px)",
-    toggleHeight: "20px",
+    toggleHeight: "22px",
     toggleWidth: "36px",
   },
   md: {
@@ -18,7 +18,7 @@ const scaleKeyValues = {
     handleLeft: "4px",
     handleTop: "4px",
     checkedLeft: "calc(100% - 36px)",
-    toggleHeight: "40px",
+    toggleHeight: "42px",
     toggleWidth: "72px",
   },
 };
@@ -47,6 +47,7 @@ export const Input = styled.input<InputProps>`
   position: absolute;
   width: 100%;
   z-index: 3;
+  border: 1px solid #424F57;
 
   &:checked + ${Handle} {
     left: ${getScale("checkedLeft")};
@@ -63,8 +64,9 @@ export const Input = styled.input<InputProps>`
 
 const StyledToggle = styled.div<ToggleProps>`
   align-items: center;
-  background-color: ${({ theme, checked }) => theme.colors[checked ? "success" : "input"]};
+  background-color: ${({ theme, checked }) => theme.colors[checked ? "primary" : "card"]};
   border-radius: 24px;
+  border: 1px solid #20282B;
   box-shadow: ${({ theme }) => theme.shadows.inset};
   cursor: pointer;
   display: inline-flex;

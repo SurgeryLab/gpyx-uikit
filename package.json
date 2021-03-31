@@ -1,7 +1,7 @@
 {
-  "name": "fruit-uikit",
-  "version": "1.0.3",
-  "description": "UI components for fruit-swap",
+  "name": "gpyx-uikit",
+  "version": "1.0.6",
+  "description": "UI components for gpyx-swap",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/SurgeryLab/fruit-uikit",
+  "repository": "https://github.com/SurgeryLab/gpyx-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
